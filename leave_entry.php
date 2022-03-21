@@ -8,7 +8,7 @@
 
 
 
-	require_once('db_connect.php');
+	require_once('dbconfig.php');
 
 	$connect = mysqli_connect( HOST, USER, PASS, DB )
 
@@ -21,11 +21,11 @@
 
 
 
-	echo "Record inserted:<br> f0 = $f0 <br> f1 = $f1";
+	echo "Record inserted:<br> name = $employee_name <br> leavestarts = $leave_start <br> leaveends='$leave_end' ;
 
 
 
-	echo "<p><a href=read.php>READ all records</a>";
+	
 
 ?>
 	
