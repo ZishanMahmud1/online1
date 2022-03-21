@@ -15,5 +15,17 @@
 		or die("Can not connect");
 
 
+ $result=mysqli_query( $connect, "INSERT INTO leave_entry VALUES ( NULL, '$employee_name', '$leave_start','$leave_end','PENDING','NULL' )" )
 
+		or die("Can not execute query");
+
+
+
+	echo "Record inserted:<br> f0 = $f0 <br> f1 = $f1";
+
+
+
+	echo "<p><a href=read.php>READ all records</a>";
+
+?>
 	
