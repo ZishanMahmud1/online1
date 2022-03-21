@@ -1,0 +1,12 @@
+create database leave_management;
+use leave_management;
+
+create table leave_entry ( 
+     id INT(10) AUTO_INCREMENT, 
+     employee_name char(15), 
+     leave_start char(30),
+     leave_end char(30),
+     status1 char(50),
+     remarks char(100),
+     PRIMARY KEY(id) 
+);
