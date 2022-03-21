@@ -12,7 +12,7 @@
 
 	<p>
     
-    leave end: <input type=text name=endtdate> <br> 
+    leave end: <input type=text name=enddate> <br> 
    
 
 	<input type=submit value=Insert>
